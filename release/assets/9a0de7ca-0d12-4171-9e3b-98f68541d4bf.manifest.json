@@ -1,0 +1,64 @@
+{
+  "id": "9a0de7ca-0d12-4171-9e3b-98f68541d4bf",
+  "alias": "EepAttributeConfigWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "supportsFullBleed": true,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "EEPAttributeConfig"
+      },
+      "description": {
+        "default": "EEPAttributeConfig description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "EEPAttributeConfig"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/dist/"
+    ],
+    "entryModuleId": "eep-attribute-config-web-part",
+    "scriptResources": {
+      "eep-attribute-config-web-part": {
+        "type": "path",
+        "path": "eep-attribute-config-web-part_c2ab82cac330a2922d07.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.12.0"
+      },
+      "EepAttributeConfigWebPartStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "en-US": "EepAttributeConfigWebPartStrings_en-us_536e65149b0acf4d52c0043073b9fc59.js"
+        },
+        "defaultPath": "EepAttributeConfigWebPartStrings_en-us_536e65149b0acf4d52c0043073b9fc59.js"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.12.0"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.12.0"
+      }
+    }
+  }
+}

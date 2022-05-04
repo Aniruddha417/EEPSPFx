@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.12.0",
+    "libraryName": "eep",
+    "libraryId": "7d42b842-0d83-4619-970c-f4dd6da77208",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

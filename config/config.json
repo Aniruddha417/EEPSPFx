@@ -1,0 +1,153 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "inject-cssjs-app-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/injectCssjsAppCustomizer/InjectCssjsAppCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/injectCssjsAppCustomizer/InjectCssjsAppCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "eep-home-banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepHomeBanner/EepHomeBannerWebPart.js",
+          "manifest": "./src/webparts/eepHomeBanner/EepHomeBannerWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-home-post-feed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepHomePostFeed/EepHomePostFeedWebPart.js",
+          "manifest": "./src/webparts/eepHomePostFeed/EepHomePostFeedWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-home-feeds-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepHomeFeeds/EepHomeFeedsWebPart.js",
+          "manifest": "./src/webparts/eepHomeFeeds/EepHomeFeedsWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-home-user-profile-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepHomeUserProfile/EepHomeUserProfileWebPart.js",
+          "manifest": "./src/webparts/eepHomeUserProfile/EepHomeUserProfileWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-home-quick-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepHomeQuickLinks/EepHomeQuickLinksWebPart.js",
+          "manifest": "./src/webparts/eepHomeQuickLinks/EepHomeQuickLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-home-job-jar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepHomeJobJar/EepHomeJobJarWebPart.js",
+          "manifest": "./src/webparts/eepHomeJobJar/EepHomeJobJarWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-user-profile-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepUserProfile/EepUserProfileWebPart.js",
+          "manifest": "./src/webparts/eepUserProfile/EepUserProfileWebPart.manifest.json"
+        }
+      ]
+    },
+    "eeppmo-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eeppmoDashboard/EeppmoDashboardWebPart.js",
+          "manifest": "./src/webparts/eeppmoDashboard/EeppmoDashboardWebPart.manifest.json"
+        }
+      ]
+    },
+    "eepijphr-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepijphr/EepijphrWebPart.js",
+          "manifest": "./src/webparts/eepijphr/EepijphrWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-employee-template-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepEmployeeTemplate/EepEmployeeTemplateWebPart.js",
+          "manifest": "./src/webparts/eepEmployeeTemplate/EepEmployeeTemplateWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-home-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepHome/EepHomeWebPart.js",
+          "manifest": "./src/webparts/eepHome/EepHomeWebPart.manifest.json"
+        }
+      ]
+    },
+    "eepijp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepijp/EepijpWebPart.js",
+          "manifest": "./src/webparts/eepijp/EepijpWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-post-template-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepPostTemplate/EepPostTemplateWebPart.js",
+          "manifest": "./src/webparts/eepPostTemplate/EepPostTemplateWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepSearch/EepSearchWebPart.js",
+          "manifest": "./src/webparts/eepSearch/EepSearchWebPart.manifest.json"
+        }
+      ]
+    },
+    "eep-attribute-config-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eepAttributeConfig/EepAttributeConfigWebPart.js",
+          "manifest": "./src/webparts/eepAttributeConfig/EepAttributeConfigWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InjectCssjsAppCustomizerApplicationCustomizerStrings": "lib/extensions/injectCssjsAppCustomizer/loc/{locale}.js",
+    "EepHomeBannerWebPartStrings": "lib/webparts/eepHomeBanner/loc/{locale}.js",
+    "EepHomePostFeedWebPartStrings": "lib/webparts/eepHomePostFeed/loc/{locale}.js",
+    "EepHomeFeedsWebPartStrings": "lib/webparts/eepHomeFeeds/loc/{locale}.js",
+    "EepHomeUserProfileWebPartStrings": "lib/webparts/eepHomeUserProfile/loc/{locale}.js",
+    "EepHomeQuickLinksWebPartStrings": "lib/webparts/eepHomeQuickLinks/loc/{locale}.js",
+    "EepHomeJobJarWebPartStrings": "lib/webparts/eepHomeJobJar/loc/{locale}.js",
+    "EepUserProfileWebPartStrings": "lib/webparts/eepUserProfile/loc/{locale}.js",
+    "EeppmoDashboardWebPartStrings": "lib/webparts/eeppmoDashboard/loc/{locale}.js",
+    "EepijphrWebPartStrings": "lib/webparts/eepijphr/loc/{locale}.js",
+    "EepEmployeeTemplateWebPartStrings": "lib/webparts/eepEmployeeTemplate/loc/{locale}.js",
+    "EepHomeWebPartStrings": "lib/webparts/eepHome/loc/{locale}.js",
+    "EepijpWebPartStrings": "lib/webparts/eepijp/loc/{locale}.js",
+    "EepPostTemplateWebPartStrings": "lib/webparts/eepPostTemplate/loc/{locale}.js",
+    "EepSearchWebPartStrings": "lib/webparts/eepSearch/loc/{locale}.js",
+    "EepAttributeConfigWebPartStrings": "lib/webparts/eepAttributeConfig/loc/{locale}.js"
+  }
+}

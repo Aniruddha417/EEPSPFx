@@ -1,0 +1,64 @@
+{
+  "id": "2c7f4765-faea-4c90-a433-d1ef541fd5cf",
+  "alias": "EepijphrWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "supportsFullBleed": true,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "EEPIJPHR"
+      },
+      "description": {
+        "default": "EEPIJPHR description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "EEPIJPHR"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "eepijphr-web-part",
+    "scriptResources": {
+      "eepijphr-web-part": {
+        "type": "path",
+        "path": "eepijphr-web-part_1a8de6a37f7f5327e906.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.12.0"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.12.0"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.12.0"
+      },
+      "EepijphrWebPartStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "en-US": "EepijphrWebPartStrings_en-us_536e65149b0acf4d52c0043073b9fc59.js"
+        },
+        "defaultPath": "EepijphrWebPartStrings_en-us_536e65149b0acf4d52c0043073b9fc59.js"
+      }
+    }
+  }
+}
