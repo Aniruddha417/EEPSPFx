@@ -3,7 +3,7 @@
   "solution": {
     "name": "eep-client-side-solution",
     "id": "7d42b842-0d83-4619-970c-f4dd6da77208",
-    "version": "1.0.0.44",
+    "version": "1.0.0.49",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
     "developer": {
